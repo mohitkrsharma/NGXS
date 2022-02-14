@@ -149,6 +149,7 @@ export class AllProductsState {
     console.log(payload);
     return this.productsService.addProduct(payload).pipe(
       tap((response: any) => {
+        console.log(response);
         const state = getState();
         patchState({
           allProducts: [...state.allProducts, response],
