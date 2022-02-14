@@ -63,3 +63,8 @@ a:hover {
 .delete:visited {
   color: #ff0000;
 }
+.author {
+  text-align: center;
+  padding: 15px 30px;
+  color: #777;
+}
