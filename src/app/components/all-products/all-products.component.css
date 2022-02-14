@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+}
+.header-div {
+  display: flex;
+  justify-content: space-between;
+}
+.add-button {
+  background-color: #228b22;
+  border: none;
+  padding: 8px 16px;
+}
+.container-fluid {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.icon-div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+.show {
+  color: #ff7f50;
+}
+.show:hover {
+  color: #d2691e;
+}
+.show:visited {
+  color: #d2691e;
+}
+.update {
+  color: #6495ed;
+}
+.update:hover {
+  color: #5f9ea0;
+}
+.update:visited {
+  color: #5f9ea0;
+}
+.delete {
+  color: #ff4500;
+}
+.delete:hover {
+  color: #ff0000;
+}
+.delete:visited {
+  color: #ff0000;
+}

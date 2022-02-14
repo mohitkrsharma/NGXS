@@ -1,0 +1,14 @@
+<section class="product-section">
+  <div class="image-product">
+    <div class="image-div">
+      <img class="product-image" src="{{products.image}}" alt="{{products.title}}">
+    </div>
+    <div class="content-div">
+      <input class="form-control" [(ngModel)]="price">
+      <input class="form-control" [(ngModel)]="category">
+      <input class="form-control" [(ngModel)]="rate">
+      <input class="form-control" [(ngModel)]="count">
+      <button class="btn btn-primary update" (click)="updateProduct()">Update</button>
+    </div>
+  </div>
+</section>

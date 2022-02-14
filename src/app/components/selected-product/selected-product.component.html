@@ -1,0 +1,13 @@
+<div class="card" style="width: 18rem;">
+  <img src="{{products?.image}}" alt="product-photo" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">{{products?.title}}</h5>
+    <br>
+    <p class="card-text"><strong>{{'$'}}{{products?.price}}</strong></p>
+    <p class="card-text">{{products?.description}}</p>
+    <p class="card-text"><strong>{{products?.category}}</strong></p>
+    <p class="card-text"><span class="fa fa-star checked"></span> {{products?.rating.rate}}</p>
+    <p class="card-text">{{products?.rating.count}}</p>
+    <a href="#" class="btn btn-primary">Back</a>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+/* setting default values of html page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* section size setting */
+.product-section {
+  margin-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* setting the properties of parent div contaning both the image and the content */
+.image-product {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f8ff;
+}
+
+/* setting the properties of image div and content div */
+.content-div,
+.image-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* setting the properties of content div */
+.content-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* settings of image div */
+.product-image {
+  height: 300px;
+  width: 80%;
+}
+
+/* update button settings */
+.update {
+  color: #4b0082;
+  color: #fff;
+}

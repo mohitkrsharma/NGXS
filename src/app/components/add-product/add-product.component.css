@@ -1,0 +1,10 @@
+.product-details,
+form {
+  padding: 15px 30px;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #ff7f50;
+  border: none;
+}
