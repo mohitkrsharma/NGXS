@@ -1,2 +1,2 @@
 # NGXS
-NGXS with CRUD operations
+NGXS with CRUD operations : ADD,UPDATE,DELETE,GET
