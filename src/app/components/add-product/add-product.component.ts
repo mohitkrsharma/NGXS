@@ -30,13 +30,13 @@ export class AddProductComponent implements OnInit {
     const data = {
       category: this.productForm.value.category,
       description: this.productForm.value.description,
-      id: parseInt(this.productForm.value.productID),
+      // id: parseInt(this.productForm.value.productID),
       image: this.productForm.value.image,
       price: parseInt(this.productForm.value.price),
-      rating: {
-        rate: parseInt(this.productForm.value.rate),
-        count: parseInt(this.productForm.value.count),
-      },
+      // rating: {
+      //   rate: parseInt(this.productForm.value.rate),
+      //   count: parseInt(this.productForm.value.count),
+      // },
       title: this.productForm.value.title,
     };
     // console.log(this.productForm.value);
